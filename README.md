@@ -1,5 +1,5 @@
 ### Hi there, I'm Shehab!
-For the full about, please visit [shehio.com](shehio.com).
+For the full about, please visit [shehio.com](www.shehio.com).
 
 <!--
 **shehio/shehio** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
