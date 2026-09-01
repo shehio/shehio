@@ -24,10 +24,10 @@ a noisy score actually tells you is a statistics problem.
 #### Selected Work
 
 - [world-models](https://github.com/shehio/world-models) — chess and Go distilled from Stockfish
-  and KataGo on a single GPU: **2,301 Elo** chess (95% CI [2,190, 2,601]) and **≥2,366 Elo** 9×9 Go,
-  at roughly three to four orders of magnitude less compute than AlphaZero. Includes the ablations
-  and the negative results — MuZero from scratch caps at ~700–900 Elo at this budget, and ungated
-  self-play from a distilled teacher *regresses* ~370 Elo.
+  and KataGo on a single GPU: **2,301 Elo** chess (95% CI [2,190, 2,601]) and **≥2,366** 9×9 Go-Elo
+  (GnuGo-anchored, not the AlphaGo-paper scale), at roughly three to four orders of magnitude less
+  compute than AlphaZero. Includes the ablations and the negative results — MuZero from scratch caps
+  at ~700–900 Elo at this budget, and ungated self-play from a distilled teacher *regresses* ~370 Elo.
 - [rl-playbook](https://github.com/shehio/rl-playbook) — [rlplaybook.com](https://rlplaybook.com),
   a visual timeline of deep RL's landmark papers from DQN forward
 - [rl](https://github.com/shehio/rl) / [tabular-rl](https://github.com/shehio/tabular-rl) — RL agents
