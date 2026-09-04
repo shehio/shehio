@@ -12,22 +12,15 @@ a noisy score actually tells you is a statistics problem.
 
 #### What I'm Working On
 
-- **Agent evaluation harnesses** — open patches to [Harbor](https://github.com/harbor-framework/harbor)
-  covering sandbox lifecycle under custom task `ENTRYPOINT`s, gRPC exec-stream exhaustion on long
-  runs, retaining failed attempts for post-mortem instead of deleting them on retry, and separating
-  genuine model safety refusals from provider-side content-filter errors
-- **Training infrastructure** — Modal serverless GPU runners and Weights & Biases sweeps wired
-  across my RL repos, so an experiment is one command and a permalink
-- **Optimizer comparison for tool-using agents** — DSPy optimizers benchmarked head-to-head on
-  tool-selection tasks
+- **Recursive self improvement**
+- **Agent safety and evaluation harnesses**
+- **Training infrastructure**
+- **Optimizer comparison for tool-using agents**
 
 #### Selected Work
 
 - [world-models](https://github.com/shehio/world-models) — chess and Go distilled from Stockfish
-  and KataGo on a single GPU: **2,301 Elo** chess (95% CI [2,190, 2,601]) and **≥2,366** 9×9 Go-Elo
-  (GnuGo-anchored, not the AlphaGo-paper scale), at roughly three to four orders of magnitude less
-  compute than AlphaZero. Includes the ablations and the negative results — MuZero from scratch caps
-  at ~700–900 Elo at this budget, and ungated self-play from a distilled teacher *regresses* ~370 Elo.
+  and KataGo on a single GPU: **2,301 Elo** chess (95% CI [2,190, 2,601]).
 - [rl-playbook](https://github.com/shehio/rl-playbook) — [rlplaybook.com](https://rlplaybook.com),
   a visual timeline of deep RL's landmark papers from DQN forward
 - [rl](https://github.com/shehio/rl) / [tabular-rl](https://github.com/shehio/tabular-rl) — RL agents
@@ -38,9 +31,6 @@ a noisy score actually tells you is a statistics problem.
   simplex; the game theory I keep reaching for in multi-agent settings
 
 #### Background
-
 Distributed systems and infrastructure — gossip protocols with Merkle trees, Temporal.io workflows,
 Terraform on AWS. Quantitative finance — portfolio optimization, stochastic programming, derivative
 pricing. Python, Go, Rust, TypeScript, Java.
-
-Seattle. Longer-form writing at [shehabyasser.com](https://www.shehabyasser.com).
