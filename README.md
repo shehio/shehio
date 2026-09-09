@@ -20,23 +20,22 @@ a noisy score actually tells you is a statistics problem.
 #### Selected Work
 
 - [world-models](https://github.com/shehio/world-models) — [shehio.github.io/world-models](https://shehio.github.io/world-models/),
-  chess and Go distilled from Stockfish and KataGo on a single GPU into AlphaZero's 20x256 ResNet:
-  **2,301 Elo** chess (95% CI [2,190, 2,601]).
+  Stockfish distilled into AlphaZero's 20x256 ResNet on ~46M positions: **2,301 Elo** chess
+  (95% CI [2,190, 2,601]), with single-variable ablations and published negative results
 - [ps-env](https://shehio.github.io/ps-env/): a headless PlayStation 1 wrapped as an RL environment,
   with a Nature-DQN agent that learns Crash Bandicoot from raw pixels
-- [rl-playbook](https://github.com/shehio/rl-playbook) — [rlplaybook.com](https://rlplaybook.com),
-  a visual timeline of deep RL's landmark papers from DQN forward
-- [rl](https://github.com/shehio/rl) / [tabular-rl](https://github.com/shehio/tabular-rl) — RL agents
-  with nothing abstracted away, from tabular methods up through PPO
 - [cassandra-playground](https://github.com/shehio/cassandra-playground) — Cassandra-style
   anti-entropy repair in Go: gossip protocol with Merkle trees
+- [rl](https://github.com/shehio/rl) / [tabular-rl](https://github.com/shehio/tabular-rl) — RL agents
+  with nothing abstracted away, from tabular methods up through PPO
+- [rl-playbook](https://github.com/shehio/rl-playbook) — [rlplaybook.com](https://rlplaybook.com),
+  a visual timeline of deep RL's landmark papers from DQN forward
 - [Project-Nash](https://github.com/shehio/Project-Nash) — Nash equilibria, Lemke–Howson, minimax,
   simplex; the game theory I keep reaching for in multi-agent settings
 
 #### Publications
 
-- [HarnessOpt-Bench: Evaluating LLMs at Harness Optimization](https://arxiv.org/abs/2608.06301):
-  co-authored, arXiv:2608.06301
+- [HarnessOpt-Bench: Evaluating LLMs at Harness Optimization](https://arxiv.org/abs/2608.06301) (co-author)
 
 #### Background
 Distributed systems and infrastructure — gossip protocols with Merkle trees, Temporal.io workflows,
